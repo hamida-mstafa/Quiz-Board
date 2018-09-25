@@ -73,51 +73,51 @@
   });
 
 
-// $("#next").click(function() {
-//   $(".html").hide();
-//   $(".js").show();
-// });
-// (document).ready(function() {
-//  $("#html").submit(function(event) {
-//
-// var answer1 = parseInt($('input[answer1]:checked').val());
-// $(document).ready(function() {
-//   $(".next").click(function() {
-//     $(".html").toggle();
-//     $(".js").toggle();
-//   });
-// });
-// var answer2 = parseInt($('input[answer2]:checked').val());
-// var answer3 = parseInt($('input[answer3]:checked').val());
-// var answer4 = parseInt($('input[answer4]:checked').val());
-//
-//
-// if((answer1=="" || answer2=="" || answer3=="" || answer4=="") || (answer1=="" && answer2=="" && answer3=="" && answer4=="")){
-//  incomplete_works.innerHTML = "Some question(s) NOT completed! Atempt all Questions";
-//  event.preventDefault();
-// }else {
-//
-//   var submit = answer1 + answer2 + answer3 + answer4 ;
-//   $("#html").toggle();
-//   $("#JS").toggle();
-//   yourResult.innerHTML = scoreboard ;
-//   event.preventDefault();
-// }
-//  });
-// });
-// var oTurn = $("#flipbook").turn({
-//     width: 400,
-//     height: 300,
-//     autoCenter: true,
-//     next:true
-// });
-//
-// $("#prev").click(function(e){
-//     e.preventDefault();
-//     oTurn.turn("previous");
-// });
-//
-// $("#next").click(function(e){
-//     e.preventDefault();
-//     oTurn.turn("next");
-// });
+$("#next").click(function() {
+  $(".html").hide();
+  $(".js").show();
+});
+(document).ready(function() {
+ $("#html").submit(function(event) {
+
+var answer1 = parseInt($('input[answer1]:checked').val());
+$(document).ready(function() {
+  $(".next").click(function() {
+    $(".html").toggle();
+    $(".js").toggle();
+  });
+});
+var answer2 = parseInt($('input[answer2]:checked').val());
+var answer3 = parseInt($('input[answer3]:checked').val());
+var answer4 = parseInt($('input[answer4]:checked').val());
+
+
+if((answer1=="" || answer2=="" || answer3=="" || answer4=="") || (answer1=="" && answer2=="" && answer3=="" && answer4=="")){
+ incomplete_works.innerHTML = "Some question(s) NOT completed! Atempt all Questions";
+ event.preventDefault();
+}else {
+
+  var submit = answer1 + answer2 + answer3 + answer4 ;
+  $("#html").toggle();
+  $("#JS").toggle();
+  yourResult.innerHTML = scoreboard ;
+  event.preventDefault();
+}
+ });
+});
+var oTurn = $("#flipbook").turn({
+    width: 400,
+    height: 300,
+    autoCenter: true,
+    next:true
+});
+
+$("#prev").click(function(e){
+    e.preventDefault();
+    oTurn.turn("previous");
+});
+
+$("#next").click(function(e){
+    e.preventDefault();
+    oTurn.turn("next");
+});
