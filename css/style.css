@@ -2,7 +2,10 @@ body{
 background-repeat: no-repeat;
 background-size: cover;
 }
-p{
+a{
+  color: indigo;
+}
+h2{
   color:green;
   font-style: italic;
   font-family: sans-serif;
@@ -12,4 +15,21 @@ h1{
   color:blue;
   font-weight: 400;
   font-style: oblique;
+}
+p{
+  color: violet;
+  font-style: italic;
+  font-size: bold;
+}
+strong{
+  color white;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+/* .form-group{
+  border: 2px solid red;
+  border-right: 2;
+  border-radius: 30px 30px 50px 30px; */
+
 }
