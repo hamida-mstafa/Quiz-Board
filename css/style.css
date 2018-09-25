@@ -1,0 +1,15 @@
+body{
+background-repeat: no-repeat;
+background-size: cover;
+}
+p{
+  color:green;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+h1{
+  color:blue;
+  font-weight: 400;
+  font-style: oblique;
+}

@@ -1,0 +1,36 @@
+/* .js{
+  display:none;
+}
+.oop{
+  display: none;
+} */
+div.flip-control {
+    width: 400px;
+    text-align: center;
+    color: yellow;
+}
+
+div.flip-control a {
+    margin-left: 10px;
+}
+#webbased{
+  color: black;
+  background-repeat: no-repeat;
+  background-image:url("https://previews.123rf.com/images/kentoh/kentoh0809/kentoh080900226/3593949-html-coding-language-abstract-background-with-internet-network.jpg");
+  background-size: cover;
+}
+.html{
+  background-color: black;
+}
+#js{
+  background-image: url("https://i.stack.imgur.com/IAC0R.png");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+#Oop{
+  background-image:url("https://thumbs.dreamstime.com/b/oop-object-oriented-programming-computer-generated-image-d-render-59561981.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blue;
+}
