@@ -29,7 +29,7 @@ $("#Oop").hide();
         mean +=10;
       }
       })
-      alert(mean);
+      alert(mean + "out of 40");
       result+=mean;
     })
 
@@ -46,7 +46,7 @@ $("#Oop").hide();
           total +=10;
         }
         })
-        alert(total);
+        alert(total + "out of 30");
         result+=total;
       })
       $("#submit3").click(function(event) {
@@ -63,7 +63,7 @@ $("#Oop").hide();
             sum +=10;
           }
           })
-          alert(sum);
+          alert(sum + "out of 40");
           result+=sum;
           $("#scoreboard").text(result);
         })

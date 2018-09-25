@@ -9,11 +9,11 @@ You use git clone to be able to download the documents in the github
 Git
 ### Installation instruction
 ```
-Git clone https://github.com/hamida-mstafa/Triangle-tracker.git
+Git clone https://github.com/hamida-mstafa/Quiz-Board
 
 ```
 # Live Link
-[Git](https://hamida-mstafa.github.io/Triangle-tracker/)
+[Git](https://hamida-mstafa.github.io/Quiz-Board/)
 ## Behaviours
 |Behaviour   | Input     |  Output |
 |------------|:---------:|---------------------------------:|
