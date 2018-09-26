@@ -1,3 +1,4 @@
+//user interface logic
 $(document).ready(function() {
 $("#JS").hide();
 $("#Oop").hide();
@@ -11,6 +12,11 @@ $("#Oop").hide();
     $("#JS").hide();
     $("#webbased").hide();
     $("#Oop").show();
+    answer()
+
+    $("#submit2").click(function(event) {
+      event.preventDefault();
+      })
   });
 
   var result = 0;
@@ -33,22 +39,8 @@ $("#Oop").hide();
       result+=mean;
     })
 
-    $("#submit2").click(function(event) {
-      event.preventDefault();
-      var total = 0;
-      var javascript1 = parseInt($('input[name=javascript1]:checked').val());
-      var javascript2 = parseInt($('input[name=javascript2]:checked').val());
-      var javascript3 = parseInt($('input[name=javascript3]:checked').val());
-      var javascript = [javascript1,javascript2,javascript3];
-      console.log(javascript1,javascript2,javascript3);
-      javascript.forEach(function(answer) {
-        if(answer === 5) {
-          total +=10;
-        }
-        })
-        alert(total);
-        result+=total;
-      })
+
+
       $("#submit3").click(function(event) {
         event.preventDefault();
         var sum = 0;
@@ -71,6 +63,23 @@ $("#Oop").hide();
         // document.getElementById('scoreboard').innerHTML = result;
 
   });
+//business logic
+  function answer(){
+    var total = 0;
+    var javascript1 = parseInt($('input[name=javascript1]:checked').val());
+    var javascript2 = parseInt($('input[name=javascript2]:checked').val());
+    var javascript3 = parseInt($('input[name=javascript3]:checked').val());
+    var javascript = [javascript1,javascript2,javascript3];
+    console.log(javascript1,javascript2,javascript3);
+    javascript.forEach(function(answer) {
+      if(answer === 5) {
+        total +=10;
+      }
+      })
+      alert(total);
+      result+=total;
+  }
+  
 
 
 // $("#next").click(function() {

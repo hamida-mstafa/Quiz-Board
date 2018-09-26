@@ -2,114 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Quiz Board</title>
+    <title>Home Page</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <link href="css/style.css" rel="stylesheet" type="text/css">
      <script   src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
      <script src="js/scripts.js"></script>
   </head>
-  <body>
-    <div class="container">
-  <form class="html">
-      <div id="webbased">
-        <h1>HTML and CSS</h1>
-        <P>1. What is the short form of hyper text markup language:<br>
-          <input type="radio" name="answer1" value="0">HMLT<br>
-          <input type="radio" name="answer1" value="5">HTML<br>
-          <input type="radio" name="answer1" value="0">HLMT<br>
-          <input type="radio" name="answer1" value="0">MLHT<br>
-        </p>
-        <P>2. What does CSS stand for:<br>
-          <input type="radio" name="answer2" value="0">Colorful style sheet<br>
-          <input type="radio" name="answer2" value="0">Creative style sheets<br>
-          <input type="radio" name="answer2" value="5">cascading style sheet<br>
-          <input type="radio" name="answer2" value="0">Computer style sheet<br>
-        </p>
-        <P>3. Choose the correct HTML to define important text :<br>
-          <input type="radio" name="answer3" value="0">i<br>
-          <input type="radio" name="answer3" value="0">important<br>
-          <input type="radio" name="answer3" value="0">b<br>
-          <input type="radio" name="answer3" value="5">strong<br>
-        </p>
-        <P>4. Choose the correct HTML element for the largest heading  :<br>
-          <input type="radio" name="answer4" value="0">h0<br>
-          <input type="radio" name="answer4" value="0">heading<br>
-          <input type="radio" name="answer4" value="5">h1<br>
-          <input type="radio" name="answer4" value="0">head<br>
-        </p>
-        <input id="submit" type="button" value="Submit">
-        <div class="flip-control">
-         <a href="#home" id="prev"> &#8249; </a>
-         <a href="#js" id="next"> &#8250;</a>
-        </div>
-        </div>
-      </form>
-
-      <form class="js" id="js">
-    <div id="JS">
-      <h1>Javascript</h1>
-       <P>1. What is the other name for Javascript :<br>
-         <input type="radio" name="javascript1" value="0">JS<br>
-           <input type="radio" name="javascript1" value="5">ECMA script<br>
-             <input type="radio" name="javascript1" value="0">Vanila JS<br>
-               <input type="radio" name="javascript1" value="0">All the above<br>
-        </p>
-        <P>2. Select the correct statement :<br>
-          <input type="radio" name="javascript2" value="5">Js is a server-side language<br>
-            <input type="radio" name="javascript2" value="0">Js is used only for web application<br>
-              <input type="radio" name="javascript2" value="0">All the above<br>
-                <input type="radio" name="javascript2" value="0">Js is used to create interactive web pages<br>
-        </p>
-        <P>3. What will console.log do :<br>
-          <input type="radio" name="javascript3" value="5">Print result in console<br>
-            <input type="radio" name="javascript3" value="0">Print value stored in a variable <br>
-              <input type="radio" name="javascript3" value="0">Print value name<br>
-                <input type="radio" name="javascript3" value="0">All the above<br>
-       </p>
-             <input type="button" id="submit2" value="Submit">
-       <div class="anchors">
-         <a href=".html" class="previous round">&#8249;</a>
-         <a href=".oop" class="next round">&#8250;</a>
+  <body background ="http://www.expertsystem.com/wp-content/uploads/2017/03/What-is-machine-learning_Definition.jpg" alt="">
+      <div id="five" class="container">
+        <div id="home" font size="6">
+        <h1>It's all about zeroes and ones</h1>
+        <h2>Test your programming knowledge by answering the questions provided.</h2>
+        <a href="index1.html"><strong><font size="6">Quiz</font></strong></a>
       </div>
-       </div>
-    </form>
-      <form class="oop">
-      <div id="Oop">
-        <h1>Object Oriented programming</h1>
-        <P>1. Is C++ a low level language:<br>
-          <input type="radio" name="question1" value="5">Yes<br>
-          <input type="radio" name="question1" value="0">No<br>
-          <input type="radio" name="question1" value="0">Not Sure<br>
-          <input type="radio" name="question1" value="0">None of the above<br>
-        </p>
-        <P>2. What is C++ in full :<br>
-          <input type="radio" name="question2" value="0">Client-side Scripting language<br>
-          <input type="radio" name="question2" value="5">General purpose programming language<br>
-          <input type="radio" name="question2" value="0">Movie making program<br>
-          <input type="radio" name="question2" value="0">All the above<br>
-      </p>
-      <P>3. What is the datatype name for integers :<br>
-        <input type="radio" name="question3" value="0">var<br>
-        <input type="radio" name="question3" value="5">int<br>
-        <input type="radio" name="question3" value="0">teg<br>
-        <input type="radio" name="question3" value="0">None of the above<br>
-      </p>
-      <P>4. Which statement is true :<br>
-        <input type="radio" name="question4" value="0">var don't have names<br>
-        <input type="radio" name="question4" value="0">var are pre-processor directives<br>
-        <input type="radio" name="question4" value="5">var must have a datatype<br>
-        <input type="radio" name="question4" value="0">None of the above<br>
-      </p>
-
-      <br>
-      <input type="submit" id="submit3" value="Submit">
-      <br>
-      <h2>Score Board</h2>
-      <p id="scoreboard"></p>
-      <input type="display" value="Display">
-    </div>
-    </form>
-
-  </div>
   </body>
 </html>
